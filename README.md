@@ -1,0 +1,6 @@
+# jeuTresoreLe jeu de société éducatif « Forbidden Island » (ou « Île interdite ») sous forme de programme informatique. 
+Le but du jeu est le travail coordonné de tous les demandeurs à la recherche d'artefacts en pleine interaction entre les joueurs.  Le jeu commence avec la fenêtre principale, où le joueur peut choisir de lire les règles ou tout simplement lancer le jeu. Puis une deuxième fenêtre indique le niveau de l'eau. Le joueur peut sélectionner le niveau du jeu pour commencer à jouer. Ensuite, il ya la fenêtre du jeu où il ya des champs pour trois joueurs (en fait, un seul joueur devant l’ordinateur joue les 3 rôles un à un). Chacune des joueurs  sont doté de ses propres qualités uniques :
+•	Le pilot - peut aller une fois par tour sur n’importe quelle tuile pour 1 action.
+•    L’Ingénieur - peut drainer jusqu'à deux parties de l'île en une seule étape
+•	L’Explorateur - peut se déplacer diagonalement
+Il y a un bouton pour lire les règles à tout moment du jeu. Sur l'écran on peut voir les cartes des trois joueurs, Trésor a gagné, le niveau d'eau, des cartes Trésor et des cartes Inondation. Si le jeu est gagné, on peut voir la fenêtre avec des félicitations. Si non, la fenêtre apparaît défaite déclarant. A tout moment, vous pouvez quitter le jeu et à la fin vous pouvez, si vous le souhaitez, de recommencer à zéro.
