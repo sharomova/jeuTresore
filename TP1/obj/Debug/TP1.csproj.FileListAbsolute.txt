@@ -1,0 +1,73 @@
+E:\Dev. graph\TP1\TP1\obj\Debug\TP1.FrmDebut.resources
+E:\Dev. graph\TP1\TP1\obj\Debug\TP1.Regles.resources
+E:\Dev. graph\TP1\TP1\obj\Debug\TP1.FrmGagner.resources
+E:\Dev. graph\TP1\TP1\obj\Debug\TP1.FrmJeu.resources
+E:\Dev. graph\TP1\TP1\obj\Debug\TP1.FrmOptions.resources
+E:\Dev. graph\TP1\TP1\obj\Debug\TP1.FrmPerdu.resources
+E:\Dev. graph\TP1\TP1\obj\Debug\TP1.Properties.Resources.resources
+E:\Dev. graph\TP1\TP1\obj\Debug\TP1.csproj.GenerateResource.Cache
+E:\Dev. graph\TP1\TP1\bin\Debug\TP1.exe.config
+E:\Dev. graph\TP1\TP1\bin\Debug\TP1.exe
+E:\Dev. graph\TP1\TP1\bin\Debug\TP1.pdb
+E:\Dev. graph\TP1\TP1\obj\Debug\TP1.exe
+E:\Dev. graph\TP1\TP1\obj\Debug\TP1.pdb
+D:\AColege\TP1\TP1\bin\Debug\TP1.exe.config
+D:\AColege\TP1\TP1\bin\Debug\TP1.exe
+D:\AColege\TP1\TP1\bin\Debug\TP1.pdb
+D:\AColege\TP1\TP1\obj\Debug\TP1.FrmDebut.resources
+D:\AColege\TP1\TP1\obj\Debug\TP1.Regles.resources
+D:\AColege\TP1\TP1\obj\Debug\TP1.FrmGagner.resources
+D:\AColege\TP1\TP1\obj\Debug\TP1.FrmJeu.resources
+D:\AColege\TP1\TP1\obj\Debug\TP1.FrmOptions.resources
+D:\AColege\TP1\TP1\obj\Debug\TP1.FrmPerdu.resources
+D:\AColege\TP1\TP1\obj\Debug\TP1.Properties.Resources.resources
+D:\AColege\TP1\TP1\obj\Debug\TP1.csproj.GenerateResource.Cache
+D:\AColege\TP1\TP1\obj\Debug\TP1.exe
+D:\AColege\TP1\TP1\obj\Debug\TP1.pdb
+D:\AColege\TP1\TP1\obj\Debug\TP1.csprojResolveAssemblyReference.cache
+E:\TP1\TP1\bin\Debug\TP1.exe.config
+E:\TP1\TP1\bin\Debug\TP1.exe
+E:\TP1\TP1\bin\Debug\TP1.pdb
+E:\TP1\TP1\obj\Debug\TP1.FrmDebut.resources
+E:\TP1\TP1\obj\Debug\TP1.Regles.resources
+E:\TP1\TP1\obj\Debug\TP1.FrmGagner.resources
+E:\TP1\TP1\obj\Debug\TP1.FrmJeu.resources
+E:\TP1\TP1\obj\Debug\TP1.FrmOptions.resources
+E:\TP1\TP1\obj\Debug\TP1.FrmPerdu.resources
+E:\TP1\TP1\obj\Debug\TP1.Properties.Resources.resources
+E:\TP1\TP1\obj\Debug\TP1.csproj.GenerateResource.Cache
+E:\TP1\TP1\obj\Debug\TP1.exe
+E:\TP1\TP1\obj\Debug\TP1.pdb
+D:\AColege\Dev. graph\TP1\TP1\bin\Debug\TP1.exe.config
+D:\AColege\Dev. graph\TP1\TP1\bin\Debug\TP1.exe
+D:\AColege\Dev. graph\TP1\TP1\bin\Debug\TP1.pdb
+D:\AColege\Dev. graph\TP1\TP1\obj\Debug\TP1.FrmDebut.resources
+D:\AColege\Dev. graph\TP1\TP1\obj\Debug\TP1.Regles.resources
+D:\AColege\Dev. graph\TP1\TP1\obj\Debug\TP1.FrmJeu.resources
+D:\AColege\Dev. graph\TP1\TP1\obj\Debug\TP1.FrmOptions.resources
+D:\AColege\Dev. graph\TP1\TP1\obj\Debug\TP1.FrmResultat.resources
+D:\AColege\Dev. graph\TP1\TP1\obj\Debug\TP1.FrmLeau.resources
+D:\AColege\Dev. graph\TP1\TP1\obj\Debug\TP1.Properties.Resources.resources
+D:\AColege\Dev. graph\TP1\TP1\obj\Debug\TP1.csproj.GenerateResource.Cache
+D:\AColege\Dev. graph\TP1\TP1\obj\Debug\TP1.exe
+D:\AColege\Dev. graph\TP1\TP1\obj\Debug\TP1.pdb
+D:\AColege\Dev. graph\TP1\TP1\obj\Debug\TP1.csprojResolveAssemblyReference.cache
+D:\AColege\4ses\Dev. graph\TP1\TP1\bin\Debug\TP1.exe.config
+D:\AColege\4ses\Dev. graph\TP1\TP1\obj\Debug\TP1.exe
+D:\AColege\4ses\Dev. graph\TP1\TP1\obj\Debug\TP1.pdb
+D:\AColege\4ses\Dev. graph\TP1\TP1\bin\Debug\TP1.exe
+D:\AColege\4ses\Dev. graph\TP1\TP1\bin\Debug\TP1.pdb
+D:\AColege\4ses\Dev. graph\TP1\TP1\obj\Debug\TP1.csprojResolveAssemblyReference.cache
+D:\AColege\4ses\Dev. graph\TP1\TP1\obj\Debug\TP1.FrmDebut.resources
+D:\AColege\4ses\Dev. graph\TP1\TP1\obj\Debug\TP1.Regles.resources
+D:\AColege\4ses\Dev. graph\TP1\TP1\obj\Debug\TP1.FrmJeu.resources
+D:\AColege\4ses\Dev. graph\TP1\TP1\obj\Debug\TP1.FrmOptions.resources
+D:\AColege\4ses\Dev. graph\TP1\TP1\obj\Debug\TP1.FrmResultat.resources
+D:\AColege\4ses\Dev. graph\TP1\TP1\obj\Debug\TP1.FrmLeau.resources
+D:\AColege\4ses\Dev. graph\TP1\TP1\obj\Debug\TP1.Properties.Resources.resources
+D:\AColege\4ses\Dev. graph\TP1\TP1\obj\Debug\TP1.csproj.GenerateResource.Cache
+D:\AColege\4ses\Dev. graph\TP1\TP1\bin\Debug\TP1.exe.manifest
+D:\AColege\4ses\Dev. graph\TP1\TP1\bin\Debug\TP1.application
+D:\AColege\4ses\Dev. graph\TP1\TP1\obj\Debug\TP1.TrustInfo.xml
+D:\AColege\4ses\Dev. graph\TP1\TP1\obj\Debug\TP1.exe.manifest
+D:\AColege\4ses\Dev. graph\TP1\TP1\obj\Debug\TP1.application

@@ -1,0 +1,418 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F9284D81-4AF4-42B7-81F5-81B68E03EBC3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TP1</RootNamespace>
+    <AssemblyName>TP1</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>https://olgasharomova%40bitbucket.org/olgasharomova/projet3c.git/</PublishUrl>
+    <Install>false</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>8F6EBD4388A8EF1753F846506879F7426E3D5782</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>TP1_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CartesJeu.cs" />
+    <Compile Include="CarteInnod.cs" />
+    <Compile Include="CarteTresor.cs" />
+    <Compile Include="FrmDebut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDebut.Designer.cs">
+      <DependentUpon>FrmDebut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRegle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRegle.Designer.cs">
+      <DependentUpon>FrmRegle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmJeu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmJeu.Designer.cs">
+      <DependentUpon>FrmJeu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOptions.Designer.cs">
+      <DependentUpon>FrmOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmResultat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmResultat.Designer.cs">
+      <DependentUpon>FrmResultat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLeau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLeau.Designer.cs">
+      <DependentUpon>FrmLeau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmDebut.resx">
+      <DependentUpon>FrmDebut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRegle.resx">
+      <DependentUpon>FrmRegle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmJeu.resx">
+      <DependentUpon>FrmJeu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOptions.resx">
+      <DependentUpon>FrmOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmResultat.resx">
+      <DependentUpon>FrmResultat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLeau.resx">
+      <DependentUpon>FrmLeau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="TP1_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="gold_gate.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imageDebute.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bronze_gate.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cave_embers.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cave_of_shadows.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cliff_of_abandon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copper_gate.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coral_palace.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crimson_forest.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dunes_of_deception.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fools_landing.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\howling_garden.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iron_gate.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lost_lagoon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\misty_march.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\observatory.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phantom-rock.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\règles île interdite_Страница_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\silver_gate.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\temple_of_the_moon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\temple_of_the_sun.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tidal_palace.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\twilight_hollow.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\watchtower.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\whispering_garden.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\breakers_bridge.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\breakers_bridge_flooded.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bronze_gate_flooded.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cave_embers_flooded.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cave_of_shadows_flooded.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cliff_of_abandon_flooded.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copper_gate_flooded.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\howling_garden_flooded.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iron_gate_flooded.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lost_lagoon_flooded.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coral_palace_flooded.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crimson_forest_flooded.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dunes_of_deception_flooded.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fools_landing_flooded.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gold_gate_flooded.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\misty_march_flooded.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\observatory_flooded.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phantom-rock_flooded.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\silver_gate_flooded.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\temple_of_the_moon_flooded.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\temple_of_the_sun_flooded.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tidal_palace_flooded.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\twilight_hollow_flooded.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\watchtower_flooded.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\whispering_garden_flooded.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wind2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wind.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leon2_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\helicopter2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\helicopter.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\feu2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\feu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eau2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eau.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cable.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cable2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Water2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Сло3 0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lost1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mid.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
